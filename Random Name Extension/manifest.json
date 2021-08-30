@@ -1,16 +1,16 @@
 {
   "manifest_version": 2,
-  "name": "KLAHOOT",
-  "version": "2.4",
-  "description": "Klahoot is the best, most reliable and FREE service for getting answers for private and public quizzes on Kahoot.",
+  "name": "NicnamekGen",
+  "version": "1.0",
+  "description": "This nickname generator will end your problem with nicknames forever!",
   "icons": {
-	  "128": "klahoot.png"
+	  "128": "icon.png"
 	  
   },
    "content_security_policy": "script-src 'self' https://cdn.jsdelivr.net/npm/p5@1.1.4/lib/p5.min.js; object-src 'self'",
   "browser_action": {
-    "default_icon": "klahoot.png",
+    "default_icon": "icon.png",
     "default_popup": "index.html",
-    "default_title": "KLAHOOT"
+    "default_title": "NicknameGen"
   }
 }
